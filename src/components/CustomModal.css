@@ -1,0 +1,38 @@
+.modalBackground {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.136);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.modalContainer {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.close-iocn {
+  font-size: 25px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .modalContainer {
+    width: 80%;
+  }
+}
