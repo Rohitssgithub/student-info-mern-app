@@ -8,7 +8,7 @@ import route from "./router/user.route"
 import cookieParser from "cookie-parser";
 
 var corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'http://localhost:5175',
     credentials: true,
     optionsSuccessStatus: 200
 }
